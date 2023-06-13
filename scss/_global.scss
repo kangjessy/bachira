@@ -1,0 +1,25 @@
+body {
+  background: #fff;
+  font-family: "Manrope", sans-serif;
+
+  .hero,
+  .brands,
+  .categories,
+  .benefits,
+  .products,
+  footer {
+    margin-top: 130px !important;
+  }
+}
+
+a.text-grey {
+  &:hover {
+    color: #3c9379 !important;
+    font-weight: 500;
+  }
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="content-box">
+        <div class="content">
+          <div class="heading">
+            <h1>Website Information</h1>
+            <span class="close">X</span>
+          </div>
+          <h2>Bachira Online Shop</h2>
+          <p>
+            This is the Bachira Ecommerce project, a design created by
+            <a href="https://www.figma.com/@applepe">Akmal Widad Iskandar</a>
+            from the Figma Community. This project is an implementation of the
+            design into a website using Bootstrap 5 & ScSS.
+          </p>
+          <h4>Designer</h4>
+          <p>
+            The profile of the original designer for this project can be found
+            at
+            <a href="https://www.figma.com/@applepe"
+              >https://www.figma.com/@applepe</a
+            >.
+          </p>
+          <h4>Developer</h4>
+          <ul>
+            <li>Name: <b>Jessy Mutaj Hifjudin</b></li>
+            <li>
+              GitHub:
+              <b
+                ><a href="https://github.com/kangjessy"
+                  >https://github.com/kangjessy</a
+                ></b
+              >
+            </li>
+            <li>
+              Link:
+              <b
+                ><a href="https://linktr.ee/kangjessy_dev"
+                  >https://linktr.ee/kangjessy_dev</a
+                ></b
+              >
+            </li>
+          </ul>
+          <h4>Case Study</h4>
+          <p>Case study can you see in Hashnode : (on going)</p>
+          <h4>Preview</h4>
+          <p>
+            You can see a preview of the design below:
+            <a
+              href="https://www.figma.com/community/file/1200073211463747441/Bachira-Online-Shop"
+              >https://www.figma.com/community/file/1200073211463747441/Bachira-Online-Shop</a
+            >
+          </p>
+          <h4>License</h4>
+          <p>
+            This project is licensed under the MIT License. This means that you
+            are allowed to use, modify, and distribute the source code. However,
+            please note that the original design is the work of someone else and
+            cannot be claimed solely. Please respect the designer's copyright
+            and do not use the design without proper permission.
+          </p>
+          <h4>Acknowledgments</h4>
+          <p>
+            Thank you for checking out the Bachira Ecommerce project! If you
+            have any questions or feedback, feel free to contact us.
+          </p>
+          <p>Happy coding and best of luck!</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const popup = document.querySelector(".popup");
+      const close = document.querySelector(".close");
+
+      window.onload = function () {
+        setTimeout(function () {
+          popup.style.display = "block";
+        }, 2000);
+
+        close.addEventListener("click", () => {
+          popup.style.display = "none";
+        });
+      };
+    </script>
+  </body>
+</html>

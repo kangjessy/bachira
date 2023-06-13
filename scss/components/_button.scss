@@ -1,0 +1,18 @@
+.btn {
+  padding: 10px 22px;
+  border-radius: 8px;
+}
+
+.btn-success {
+  background: #3c9379;
+  border: 1px solid #3c9379;
+}
+
+.btn-rotate {
+  transition: 0.3s ease-in;
+
+  &:hover {
+    transform: rotate(-10deg);
+    transition: 0.3s ease-in;
+  }
+}
